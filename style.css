@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+}
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position:absolute;
+    overflow: hidden;
+    height: 800px;
+    color: aquamarine;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    opacity: 0.83;
+    background: linear-gradient(#329ba8 0%,#b08dcc 100%);
+    display:table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    font-family: 'Satisfy', cursive;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    background-color: mistyrose;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin: 8px auto;
+    }
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.menu{
+    position: fixed;
+    font-family: monospace;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10; 
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    color: navy;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+    text-shadow: 1px 1px maroon;
+}
+.article:hover{
+    color: #862bba;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;
+}
+#videos{
+    text-align: center;
+    background-color: #c0f5b0;
+}
+#work{
+    text-align: center;
+    background-color: #f5b9b0;
+}
+#writings{
+    text-align: center;
+    background-color: #b0f5ec;
+}
+#contact{
+    text-align: center;
+    background-color: #f5e8fc;
+}
+#writings a{
+    text-shadow: none ! important;
+    text-decoration: underline ! important;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact 1 h3{
+    display: inline;
+}
